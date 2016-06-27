@@ -1,4 +1,4 @@
-var number = {'Fizz','Buzz'};
+var number = ['Fizz','Buzz'];
 
 var Decision = function(i)
 {
