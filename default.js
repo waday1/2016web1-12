@@ -30,7 +30,7 @@ for(var i = 1; i < 101; i++)
   document.getElementById('FizzBuzz').appendChild(li);
 }
 
-document.getElementById('form').function()
+document.getElementById('form').onsubmit = function()
 {
   var li= document.createElement('li');
   
