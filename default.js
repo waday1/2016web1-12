@@ -36,7 +36,7 @@ document.getElementById('form').function()
   
    li.textContent = i + '回目:' + Decision(word);
    
-   window.alert(document.getElementById('form').li.value
+   window.alert(document.getElementById('form').li.value);
   
 }
 
