@@ -4,19 +4,19 @@ var Decision = function(i)
 {
   if(i % 3 === 0 && i % 5 === 0)
   {
-    return number[0]+number[1]
+    return number[0]+number[1];
   }  
   else if(i % 3 === 0)
   {
-    return number[0]
+    return number[0];
   }
    else if(i % 5 === 0)
   {
-    return number[1]
+    return number[1];
   }
    else 
   {
-    return i
+    return i;
   }
 }
 
