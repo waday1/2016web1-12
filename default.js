@@ -1,30 +1,31 @@
-var number = Math.floor(Math.random()*3);
+var number = {'Fizz','Buzz'};
 
-var answer;
-
-var message;
-
-
-while(true)
+var Decision3=function(i)
 {
-  answer= parseInt(window.prompt('数あてゲーム　0～2'));
-  if(answer===number)
- {
-  message='あたり';
-  break;
- }
- else if(answer<number)
- {
- message='もっと大きいよ';
- }
- else if(answer>number)
- {
-  message='もっと小さいよ';
- }
-  else
- {
-  message='0～2を入れてね';
- }
-  document.getElementById('choice').textContent=message;
+  if(i%3==0&&i%5==0)
+  {
+    return number[0]+number[1]
+  }  
+  else if(i%3=0)
+  {
+    return number[0]
+  }
+   else if(i%5=0)
+  {
+    return number[1]
+  }
+   else 
+  {
+    return i
+  }
 }
-document.getElementById('choice').textContent=message;
+
+
+for(var i=0;i<101;i++)
+{
+  var li=document.createElement('li');
+  
+  li.textContent=i+'回目:'+Decision(i);
+
+  document.getElementById('FizzBuzz').appendChild(li);
+}
