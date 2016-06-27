@@ -32,11 +32,11 @@ for(var i = 1; i < 101; i++)
 }
 
 
-answer =parseInt(window.prompt('数あてゲーム　0～2'));
+answer =parseInt(window.prompt('自然数を入れてね！'));
 
 li= document.createElement('li');
   
-li.textContent = i + '回目:' + Decision(answer);
+li.textContent = answer + 'は:' + Decision(answer);
    
 document.getElementById('form').appendChild(li);
   
