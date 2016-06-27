@@ -36,7 +36,7 @@ document.getElementById('form').onsubmit = function()
   
    li.textContent = i + '回目:' + Decision(word);
    
-   window.alert(document.getElementById('form').li.value);
+  document.getElementById('form').appendChild(li);
   
 }
 
