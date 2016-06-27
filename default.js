@@ -29,3 +29,14 @@ for(var i = 1; i < 101; i++)
 
   document.getElementById('FizzBuzz').appendChild(li);
 }
+
+document.getElementById('form').function()
+{
+  var li= document.createElement('li');
+  
+   li.textContent = i + '回目:' + Decision(word);
+   
+   window.alert(document.getElementById('form').li.value
+  
+}
+
