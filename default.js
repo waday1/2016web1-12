@@ -1,4 +1,5 @@
 var number = ['Fizz','Buzz'];
+var answer
 
 var Decision = function(i)
 {
@@ -30,13 +31,14 @@ for(var i = 1; i < 101; i++)
   document.getElementById('FizzBuzz').appendChild(li);
 }
 
-document.getElementById('form').onsubmit = function()
-{
-  var li= document.createElement('li');
+
+answer =parseInt(window.prompt('数あてゲーム　0～2'));
+
+li= document.createElement('li');
   
-   li.textContent = i + '回目:' + Decision(word);
+li.textContent = i + '回目:' + Decision(answer);
    
-  document.getElementById('form').appendChild(li);
+window.alert(document.getElementById('form').li.value);
   
 }
 
