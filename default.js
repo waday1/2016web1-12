@@ -40,5 +40,5 @@ li.textContent = i + '回目:' + Decision(answer);
    
 window.alert(document.getElementById('form').li.value);
   
-}
+
 
