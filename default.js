@@ -38,7 +38,7 @@ li= document.createElement('li');
   
 li.textContent = i + '回目:' + Decision(answer);
    
-window.alert(document.getElementById('form').li.value);
+document.getElementById('form').appendChild(li);
   
 
 
